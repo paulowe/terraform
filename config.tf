@@ -22,7 +22,7 @@ resource "google_compute_firewall" "yorknet-allow-http-ssh-rdp-icmp" {
 # Create an instance in Montreal
 module "yorknet-canada-vm" {
   source           = "./instance"
-  instance_name    = "yorknet-eu-vm"
+  instance_name    = "yorknet-canada-vm"
   instance_zone    = "northamerica-northeast1-a"
   instance_network = google_compute_network.yorknet.self_link
 }
@@ -30,7 +30,7 @@ module "yorknet-canada-vm" {
 module "yorknet-eu-vm" {
   source           = "./instance"
   instance_name    = "yorknet-eu-vm"
-  instance_zone    = "eu-west1-d"
+  instance_zone    = "europe-west1-d"
   instance_network = google_compute_network.yorknet.self_link
   instance_type    = "f1-micro"
 }
