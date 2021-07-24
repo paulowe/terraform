@@ -5,6 +5,7 @@ Templates available for
 
 ### Networking infrastructure
 Deployment of automode networks
+
 Deployment of Firewall rules
 
 ### Compute
