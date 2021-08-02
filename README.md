@@ -4,12 +4,10 @@ Terraform templates and modules for repeatable deplyoment of compute, storage, a
 Templates available for
 
 ### Networking infrastructure
-Deployment of automode networks
+Deployment of custom-mode networks
 
 Deployment of Firewall rules
 
 ### Compute
 Deplomyent of VMs
-
-
 
